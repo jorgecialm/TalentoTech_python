@@ -21,4 +21,4 @@ for indice,cliente in enumerate(clientes):
     if cliente !="":
         print(f"Cliente {indice + 1} : {cliente.capitalize()}")
     else:
-        print(f"Cliente {indice + 1} : Este nombre de cliente esta vacio")
+        print(f"Cliente {indice + 1} : [ALERTA] nombre no valido")
